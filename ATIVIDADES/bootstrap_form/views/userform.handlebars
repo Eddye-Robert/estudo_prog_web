@@ -1,0 +1,37 @@
+<div class="container">
+    <form action="/products/save" method="post">
+
+        <div class="row">
+            <div class="col-4">
+                <label>Nome do Produto:</label>
+                <input type="text" class="form-control" name="name" id="nome">
+            </div>
+            <div class="col-6">
+                <label>Nome do Fornecedor:</label>
+                <input type="text" class="form-control" name="forn" id="forn">
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-5">
+                <label>Data da Compra:</label>
+                <input type="date" class="form-control" name="date" id="date">
+            </div>
+            <div class="col-5">
+                <label>Valor da Compra:</label>
+                <input type="price" class="form-control" name="compra" id="compra">
+            </div>
+        <div class="row">
+            <div class="col-6">
+                <label>Valor de Venda:</label>
+                <input type="price" class="form-control" name="venda" id="venda">
+            </div>
+            <div class="col-6">
+                <label>Categoria:</label>
+                <input type="text" class="form-control" name="categ" id="categ">
+            </div>       
+        </div>
+        <br>
+        <button type="submit" class="btn btn-primary">Enviar</button>
+    </form>
+
+</div>

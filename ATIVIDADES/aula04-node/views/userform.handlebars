@@ -1,9 +1,10 @@
+{{#if auth}}
 <h1>Adicionar Carro</h1>
 
 <form action="/users/save" method="post">
     <div class="col-md-4 ">
         <label for="marca" class="form-label">Marca:</label>
-        <input type="text" name="marca" class="form-control">
+        <input type="text" class="form-control" name="marca">
     </div>
     <div class="col-md-4 ">
         <label for="pot" class="form-label">Potência:</label>
@@ -30,3 +31,4 @@
 <div class="col-3">
     <a href="/">Home</a>
 </div>
+{{/if}}

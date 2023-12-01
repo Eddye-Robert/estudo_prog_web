@@ -32,8 +32,8 @@ const pot = req.body.pot
 const nome = req.body.nome
 const cor = req.body.cor
 const ano = req.body.ano
-
-res.render('viewuser', { marca: marca, pot: pot, nome: nome, cr: cor, ano: ano, auth })
+const user = { marca: marca, pot: pot, nome: nome, cor: cor, ano: ano}
+res.render('viewuser', { user: user, auth })
 
 })
 
